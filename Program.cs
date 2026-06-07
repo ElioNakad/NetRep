@@ -1,13 +1,13 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello Azure world");
+app.MapGet("/", () => "Hello babe");
 
 app.MapGet("/users", () =>
 {
     return new[]
     {
-        new { Id = 1, Name = "Elio" },
+        new { Id = 1, Name = "mtm" },
         new { Id = 2, Name = "John" }
     };
 });
