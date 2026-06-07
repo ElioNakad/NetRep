@@ -11,7 +11,7 @@ public sealed class HealthController(ApplicationDbContext db) : ControllerBase
     [HttpGet("")]
     public IActionResult Home()
     {
-        return Ok("Hello akhi");
+        return Ok("Hello bro");
     }
 
     [HttpGet("db-health")]
