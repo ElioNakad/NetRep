@@ -88,6 +88,7 @@ static JwtSettings GetJwtSettings(IConfiguration configuration)
     return settings;
 }
 
+
 static string GetPostgresConnectionString(IConfiguration configuration)
 {
     var connectionString =
